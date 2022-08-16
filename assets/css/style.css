@@ -45,6 +45,10 @@ p {
   width: 32px;
 }
 
+#container-testimonial {
+  width: 100%;
+}
+
 
 /* HP Potrait */
 @media (max-width: 480px) {
@@ -97,16 +101,15 @@ p {
   }
   #container-testimonial{
     width: 90%;
-    
-  }
-  #testimonial-caraousel {
-    
-    display: flex;
-    justify-content: center;
     align-items: center;
-    
+    justify-content: center;
     
   }
+
+  
+
+
+
   
 
 }
