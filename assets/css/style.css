@@ -1,43 +1,112 @@
 * {
-    margin: 0;
-    padding: 0;
-    font-family: "Helvetica";
-    box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Helvetica";
+  box-sizing: border-box;
+}
+
+.w-90 {
+  width: 90%;
+}
+
+.navbar-height {
+  height: 100px;
+}
+
+.owl-nav {
+  width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 24px;
+}
+
+p {
+  font-size: 14px;
+}
+
+.owl-next,
+.owl-prev {
+  height: 32px;
+  width: 32px;
+  border: 1px solid #c4c4c4;
+  background-color: #ffffff;
+}
+
+.owl-next:hover,
+.owl-prev:hover {
+  transition-duration: 0.3s;
+  background-color: #4caf50;
+  color: white;
+  border: none;
+}
+.our-service-list-icon    {
+  height: 32px; 
+  width: 32px;
+}
+
+
+/* HP Potrait */
+@media (max-width: 480px) {
+  .hero {
+    flex-direction: column;
+  }
+  .hero div,
+  .hero img {
+    width: 100% !important;
+  }
+
+  #service-container {
+    flex-direction: column;
   }
   
-  .w-90 {
-    width: 90%;
+  #service-container img,
+  .our-service-title {
+    width: 100% !important;
+    margin: 24px 0 !important;
   }
   
-  .navbar-height {
-    height: 100px;
+  #our-service {
+    margin-left:0 !important ;
+    width: 100% !important;
   }
-  
-  .owl-nav {
+
+  #whyus-card{
+    flex-direction: column;
     width: 100%;
+
+  }
+  #whyus-title{
+    text-align: center;
+  }
+
+  .card {
+    display: flex;
+    width: 100% !important;
+    margin-bottom: 16px;
+  }
+
+  .testimonial-item {
+    flex-direction: column !important;
+    
+    
+  }
+  .testimonial-star {
+    justify-content: center;
+    margin:24px 0px ;
+  }
+  #container-testimonial{
+    width: 90%;
+    
+  }
+  #testimonial-caraousel {
+    
     display: flex;
     justify-content: center;
     align-items: center;
-    margin-top: 24px;
+    
+    
   }
   
-  p {
-    font-size: 14px;
-  }
-  
-  .owl-next,
-  .owl-prev {
-    height: 32px;
-    width: 32px;
-    border: 1px solid #c4c4c4;
-    background-color:#ffffff ;
-  }
-  
-  .owl-next:hover,
-  .owl-prev:hover {
-    transition-duration: 0.3s;
-    background-color: #4caf50;
-    color: white;
-    border: none;
-  }
-  
+
+}

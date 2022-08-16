@@ -11,17 +11,18 @@
       crossorigin="anonymous"
     />
 
-    <link rel="stylesheet" href="assets/css/style.css" />
     <link rel="stylesheet" href="assets/css/owl.carousel.min.css" />
-
+    
     <script
-      src="https://kit.fontawesome.com/a46d74ff5b.js"
-      crossorigin="anonymous"
+    src="https://kit.fontawesome.com/a46d74ff5b.js"
+    crossorigin="anonymous"
     ></script>
+    
+    <link rel="stylesheet" href="assets/css/style.css" />
   </head>
   <body>
     <!-- Navbar -->
-    <nav
+    <!-- <nav
       class="d-flex justify-content-center align-items-center container-fluid g-0 sticky-top"
       style="font-size: 14px; background-color: #f1f3ff"
     >
@@ -51,12 +52,12 @@
           </a>
         </div>
       </div>
-    </nav>
+    </nav> -->
     <!-- End Navbar -->
 
     <!-- Hero -->
     <section
-      class="container-fluid g-0 d-flex align-items-center"
+      class="container-fluid g-0 d-flex align-items-center hero"
       style="background-color: #f1f3ff; padding-left: 5%"
     >
       <div class="w-50" style="padding-right: 5%">
@@ -84,9 +85,9 @@
       id="service"
       class="d-flex justify-content-center my-5 container-fluid"
     >
-      <div class="w-90 d-flex align-items-center">
+      <div id="service-container" class="w-90 d-flex align-items-center">
         <img src="./assets/img/img_service.png" alt="..." class="w-50 me-5" />
-        <div class="w-50 ms-5">
+        <div id="our-service" class="w-50 ms-5">
           <div class="">
             <h4 class="fw-bold">
               Best Car Rental for any kind of trip in Kendari!
@@ -102,7 +103,7 @@
           <div class="container p-0">
             <div class="d-flex align-items-center mb-2">
               <div
-                class="rounded-circle d-flex justify-content-center align-items-center"
+                class="our-service-list-icon rounded-circle d-flex justify-content-center align-items-center"
                 style="background: #cfd4ed; height: 32px; width: 32px"
               >
                 <i class="fa-solid fa-check"></i>
@@ -111,7 +112,7 @@
             </div>
             <div class="d-flex align-items-center mb-2">
               <div
-                class="rounded-circle d-flex justify-content-center align-items-center"
+                class="our-service-list-icon rounded-circle d-flex justify-content-center align-items-center"
                 style="background: #cfd4ed; height: 32px; width: 32px"
               >
                 <i class="fa-solid fa-check"></i>
@@ -120,7 +121,7 @@
             </div>
             <div class="d-flex align-items-center mb-2">
               <div
-                class="rounded-circle d-flex justify-content-center align-items-center"
+                class="our-service-list-icon rounded-circle d-flex justify-content-center align-items-center"
                 style="background: #cfd4ed; height: 32px; width: 32px"
               >
                 <i class="fa-solid fa-check"></i>
@@ -129,7 +130,7 @@
             </div>
             <div class="d-flex align-items-center mb-2">
               <div
-                class="rounded-circle d-flex justify-content-center align-items-center"
+                class="our-service-list-icon rounded-circle d-flex justify-content-center align-items-center"
                 style="background: #cfd4ed; height: 32px; width: 32px"
               >
                 <i class="fa-solid fa-check"></i>
@@ -138,7 +139,7 @@
             </div>
             <div class="d-flex align-items-center mb-2">
               <div
-                class="rounded-circle d-flex justify-content-center align-items-center"
+                class="our-service-list-icon rounded-circle d-flex justify-content-center align-items-center"
                 style="background: #cfd4ed; height: 32px; width: 32px"
               >
                 <i class="fa-solid fa-check"></i>
@@ -156,14 +157,14 @@
       id="whyus"
       class="container-fluid d-flex justify-content-center mb-5"
     >
-      <div class="row d-flex" style="width: 90%">
-        <div>
+      <div class="d-flex flex-column" style="width: 90%">
+        <div id="whyus-title">
           <h1 class="fw-bold mb-3" style="font-size: 24px">Why Us?</h1>
           <p class="mb-4" style="font-size: 14px">
             Mengapa harus pilih Binar Car Rental?
           </p>
         </div>
-        <div class="d-flex justify-content-between">
+        <div id="whyus-card" class="d-flex justify-content-between">
           <div class="card" style="width: 24%">
             <div class="card-body">
               <div
@@ -234,17 +235,19 @@
 
     <!-- Testimony -->
     <section
-      id="testimony"
+      id="testimony "
       class="d-flex flex-column justify-content-center align-items-center"
-    >
+      
+    > 
+    <div id="container-testimonial" class="d-flex flex-column justify-content-center align-items-center">    
       <h1>Testimonial</h1>
       <p>Berbagai review positif dari para pelanggan kami</p>
-      <div class="row d-flex justify-content-center mw-100">
-        <div class="col p-0">
-          <div class="loop owl-carousel">
+      <div id="testimonial-caraousel" class="row d-flex justify-content-center mw-100">
+        <div  class="col p-0">
+          <div class="loop  owl-carousel">
             <div class="item">
               <div
-                class="p-4 rounded-2 d-flex justify-content-center align-items-center"
+                class="testimonial-item p-4 rounded-2 d-flex justify-content-center align-items-center"
                 style="background: #f1f3ff"
               >
                 <div class="w-25 d-flex justify-content-center">
@@ -258,7 +261,7 @@
                   </figure>
                 </div>
                 <div class="w-75">
-                  <div class="mb-2" style="color: #f9cc00">
+                  <div class="testimonial-star d-flex mb-2" style="color: #f9cc00">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -277,7 +280,7 @@
             </div>
             <div class="item">
               <div
-                class="p-4 rounded-2 d-flex justify-content-center align-items-center"
+                class="testimonial-item p-4 rounded-2 d-flex justify-content-center align-items-center"
                 style="background: #f1f3ff"
               >
                 <div class="w-25 d-flex justify-content-center">
@@ -291,7 +294,7 @@
                   </figure>
                 </div>
                 <div class="w-75">
-                  <div class="mb-2" style="color: #f9cc00">
+                  <div class="testimonial-star d-flex mb-2" style="color: #f9cc00">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -310,7 +313,7 @@
             </div>
             <div class="item">
               <div
-                class="p-4 rounded-2 d-flex justify-content-center align-items-center"
+                class="testimonial-item p-4 rounded-2 d-flex justify-content-center align-items-center"
                 style="background: #f1f3ff"
               >
                 <div class="w-25 d-flex justify-content-center">
@@ -324,7 +327,7 @@
                   </figure>
                 </div>
                 <div class="w-75">
-                  <div class="mb-2" style="color: #f9cc00">
+                  <div class="testimonial-star d-flex mb-2" style="color: #f9cc00">
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
                     <i class="fa-solid fa-star"></i>
@@ -366,6 +369,7 @@
           </button>
         </div>
       </div>
+    </div>
     </section>
     <!-- End Testimony -->
 

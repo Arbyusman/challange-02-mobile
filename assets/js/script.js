@@ -6,7 +6,15 @@ jQuery(document).ready(function ($) {
     loop: true,
     margin: 50,
     responsive: {
-      600: {
+      0: {
+        items: 1,
+      },
+
+      480: {
+        items: 2,
+      },
+
+      1000: {
         items: 2,
       },
     },
