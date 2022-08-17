@@ -40,15 +40,14 @@ p {
   color: white;
   border: none;
 }
-.our-service-list-icon    {
-  height: 32px; 
+.our-service-list-icon {
+  height: 32px;
   width: 32px;
 }
 
 #container-testimonial {
   width: 100%;
 }
-
 
 /* HP Potrait */
 @media (max-width: 480px) {
@@ -63,24 +62,23 @@ p {
   #service-container {
     flex-direction: column;
   }
-  
+
   #service-container img,
   .our-service-title {
     width: 100% !important;
     margin: 24px 0 !important;
   }
-  
+
   #our-service {
-    margin-left:0 !important ;
+    margin-left: 0 !important ;
     width: 100% !important;
   }
 
-  #whyus-card{
+  #whyus-card {
     flex-direction: column;
     width: 100%;
-
   }
-  #whyus-title{
+  #whyus-title {
     text-align: center;
   }
 
@@ -92,24 +90,68 @@ p {
 
   .testimonial-item {
     flex-direction: column !important;
-    
-    
   }
   .testimonial-star {
     justify-content: center;
-    margin:24px 0px ;
+    margin: 24px 0px;
   }
-  #container-testimonial{
+  #container-testimonial {
     width: 90%;
     align-items: center;
     justify-content: center;
+  }
+  #banner-title {
+    text-align: center;
+    width: 60% !important;
+  }
+  #banner-item {
+    width: 60% !important;
+  }
+  #banner-button {
+    width: 50% !important ;
+    margin-top: 24px !important;
+  }
+
+  #container-faq{
+    flex-direction: column !important;
+    width: 90% !important;
+    align-items: center;
+    text-align: center;
+  }
+
+  .accordion{
+    width: 100% !important;
+  }
+
+  #accordion-title{
+    width: 100% !important;
+  }
+  #footer{
+    flex-direction: column !important;
+    width: 90% !important;
+  }
+  #footer-alamat {
+    width: 100% !important;
+    padding: 0% !important;
+    margin-bottom: 16px;
+  }
+  #footer-nav{
+    width:100%  ;
+    padding: 0% !important;
+    margin-bottom: 16px ;    
+
+  }
+  #footer-connect-with-us{
+    width: 100% ;
+    padding: 0% !important;
+    margin-bottom: 16px;
+  }
+  
+  #footer-logo{
+    width: 100%;
+    padding: 0% !important;
     
   }
 
-  
-
-
-
-  
 
 }
