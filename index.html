@@ -20,58 +20,69 @@
 
     <link rel="stylesheet" href="assets/css/style.css" />
   </head>
+
   <body>
-
-
     <!-- Navbar -->
-    <!-- <nav
-      class="navbar navbar-expand d-flex justify-content-center r container-fluid g-0 sticky-top"
+    <nav
+      class="navbar navbar-expand-lg d-flex justify-content-center container-fluid sticky-top"
       style="font-size: 14px; background-color: #f1f3ff"
     >
-      <div
-        class="d-flex justify-content-between "
-        style="width: 90% ;"
-      >
-        <a class="navbar-brand  " href="#">
+      <div class="container-fluid" style="width: 90%">
+        <a class="navbar-brand" href="#">
           <img src="assets/img/logo.png" alt="img-logo" />
         </a>
-
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02" aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+        <button
+          
+          class="navbar-toggler"
+          type="button"
+          data-bs-toggle="offcanvas"
+          data-bs-target="#offcanvasNavbar"
+          aria-controls="offcanvasNavbar"
+        >
           <span class="navbar-toggler-icon"></span>
         </button>
-
-        <div class="d-flex align-items-center justify-content-end" id="navbarTogglerDemo02">
-          <a class="nav-item nav-link px-3 " href="#service"
-            >Our Services</a
-          >
-          <a class="nav-item nav-link px-3 " href="#whyus">Why Us</a>
-          <a class="nav-item nav-link px-3 " href="#testimony"
-            >Testimonial</a
-          >
-          <a class="nav-item nav-link px-3 " href="#faq">FAQ</a>
-          <a class="nav-item nav-link px-3 " href="#">
+        <div
+          class="offcanvas offcanvas-end"
+          tabindex="-1"
+          id="offcanvasNavbar"
+          aria-labelledby="offcanvasNavbarLabel"
+        >
+          <div class="offcanvas-header">
+            <h5 class="offcanvas-title fw-bold pt-4" id="offcanvasNavbarLabel">BCR</h5>
             <button
+              
               type="button"
-              class="btn btn-success fw-bold border-0 px-3 "
-              style="background: #5cb85f"
-            >
-              Register
-            </button>
-          </a>
+              class="btn-close"
+              data-bs-dismiss="offcanvas"
+              aria-label="Close"
+            ></button>
+          </div>
+          <div id="sidebar" class="d-flex align-items-center justify-content-end">
+            <a class="nav-item nav-link px-3 py-2" href="#service">Our Services</a>
+            <a class="nav-item nav-link px-3 py-2" href="#whyus">Why Us</a>
+            <a class="nav-item nav-link px-3 py-2" href="#testimony">Testimonial</a>
+            <a class="nav-item nav-link px-3 py-2" href="#faq">FAQ</a>
+            <a class="nav-item nav-link px-3 py-2" href="#">
+              <button
+                type="button"
+                class="btn btn-success fw-bold border-0 px-3"
+                style="background: #5cb85f"
+              >
+                Register
+              </button>
+            </a>
+          </div>
         </div>
-
       </div>
-    </nav> -->
+    </nav>
     <!-- End Navbar -->
 
-
-    
     <!-- Hero -->
     <section
-      class="container-fluid g-0 d-flex align-items-center hero "
-      style="background-color: #f1f3ff; padding-left: 5%"
+      class="container-fluid g-0 d-flex align-items-center hero"
+      style="background-color: #f1f3ff"
     >
-      <div class="w-50" style="padding-right: 5%">
+      <div class="w-50" style="padding-right: 5%; padding-left: 6%">
         <h1 class="fw-bold mb-3" style="font-size: 36px">
           Sewa & Rental Mobil Terbaik di kawasan Kendari
         </h1>
@@ -411,7 +422,11 @@
         >
           Sewa Mobil di Kendari Sekarang
         </h1>
-        <p id="banner-item" class="mb-2 mt-2 text-center fw-light" style="width: 50%">
+        <p
+          id="banner-item"
+          class="mb-2 mt-2 text-center fw-light"
+          style="width: 50%"
+        >
           Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
           eiusmod tempor incididunt ut labore et dolore magna aliqua.
         </p>
@@ -428,11 +443,14 @@
 
     <!-- FAQ -->
     <section
-
       id="faq"
       class="container-fluid justify-content-center d-flex mt-5"
     >
-      <div id ="container-faq" class="d-flex justify-content-center col-2" style="width: 90%">
+      <div
+        id="container-faq"
+        class="d-flex justify-content-center col-2"
+        style="width: 90%"
+      >
         <div id="accordion-title" style="width: 40%">
           <h1 class="fw-bold mb-3" style="font-size: 24px">
             Frequently Asked Question
@@ -632,23 +650,24 @@
         </div>
 
         <div id="footer-nav" class="nav d-flex flex-column col-2 ps-5 pe-5">
-          
-            <li class="nav-item mb-2">
-              <a href="#service" class="nav-link p-0 text-black">Our Service</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#whyus" class="nav-link p-0 text-black">Why Us</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#testimony" class="nav-link p-0 text-black">Testimonial</a>
-            </li>
-            <li class="nav-item mb-2">
-              <a href="#faq" class="nav-link p-0 text-black">FAQ</a>
-            </li>
-          
+          <li class="nav-item mb-2">
+            <a href="#service" class="nav-link p-0 text-black">Our Service</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#whyus" class="nav-link p-0 text-black">Why Us</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#testimony" class="nav-link p-0 text-black">Testimonial</a>
+          </li>
+          <li class="nav-item mb-2">
+            <a href="#faq" class="nav-link p-0 text-black">FAQ</a>
+          </li>
         </div>
 
-        <div id="footer-connect-with-us" class="col-4 justify-content-center align-items-center ps-5 pe-5">
+        <div
+          id="footer-connect-with-us"
+          class="col-4 justify-content-center align-items-center ps-5 pe-5"
+        >
           <p class="fw-light">Connect with us</p>
           <ul class="nav flex-row gap-3">
             <div
@@ -685,7 +704,7 @@
           </ul>
         </div>
 
-        <div id="footer-logo"  class="col-2 pe-5">
+        <div id="footer-logo" class="col-2 pe-5">
           <p class="fw-light">Copyright Binar 2022</p>
           <img src="/assets/img/logo.png" />
         </div>

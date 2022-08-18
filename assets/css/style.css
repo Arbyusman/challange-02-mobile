@@ -4,6 +4,14 @@
   font-family: "Helvetica";
   box-sizing: border-box;
 }
+p {
+  font-size: 14px;
+}
+
+nav {
+  padding-top: 0px !important;
+  padding-bottom: 0px !important;
+}
 
 .w-90 {
   width: 90%;
@@ -19,10 +27,6 @@
   justify-content: center;
   align-items: center;
   margin-top: 24px;
-}
-
-p {
-  font-size: 14px;
 }
 
 .owl-next,
@@ -51,6 +55,20 @@ p {
 
 /* HP Potrait */
 @media (max-width: 480px) {
+  #sidebar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .navbar-toggler {
+    border: 0px !important;
+    background-color: #f1f3ff;
+    box-shadow: none !important;
+  }
+
+  .offcanvas {
+    width: 50% !important;
+  }
+
   .hero {
     flex-direction: column;
   }
@@ -112,21 +130,21 @@ p {
     margin-top: 24px !important;
   }
 
-  #container-faq{
+  #container-faq {
     flex-direction: column !important;
     width: 90% !important;
     align-items: center;
     text-align: center;
   }
 
-  .accordion{
+  .accordion {
     width: 100% !important;
   }
 
-  #accordion-title{
+  #accordion-title {
     width: 100% !important;
   }
-  #footer{
+  #footer {
     flex-direction: column !important;
     width: 90% !important;
   }
@@ -135,23 +153,43 @@ p {
     padding: 0% !important;
     margin-bottom: 16px;
   }
-  #footer-nav{
-    width:100%  ;
-    padding: 0% !important;
-    margin-bottom: 16px ;    
-
-  }
-  #footer-connect-with-us{
-    width: 100% ;
+  #footer-nav {
+    width: 100%;
     padding: 0% !important;
     margin-bottom: 16px;
   }
-  
-  #footer-logo{
+  #footer-connect-with-us {
     width: 100%;
     padding: 0% !important;
-    
+    margin-bottom: 16px;
   }
 
+  #footer-logo {
+    width: 100%;
+    padding: 0% !important;
+  }
+}
+
+/* Potrait Tablet */
+
+@media only screen and (max-width: 950px) and (min-width: 540px) {
+  #sidebar {
+    flex-direction: column !important;
+    align-items: flex-start !important;
+  }
+  .navbar-toggler {
+    border: 0px !important;
+    background-color: #f1f3ff;
+    box-shadow: none !important;
+  }
+
+  .offcanvas {
+    width: 50% !important;
+  }
+
+  
+
+
+  
 
 }

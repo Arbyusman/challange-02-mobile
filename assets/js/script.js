@@ -11,7 +11,7 @@ jQuery(document).ready(function ($) {
       },
 
       480: {
-        items: 2,
+        items: 1,
       },
 
       1000: {
