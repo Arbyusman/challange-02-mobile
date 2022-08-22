@@ -69,9 +69,17 @@ nav {
     width: 50% !important;
   }
 
+  #navbar-button{
+    padding: 0% !important;
+  }
+
   .navbar-brand img {
     width: 100px !important;
     height: 34px;
+    
+  }
+  #navbar-logo{
+    padding-left: 1% !important;
   }
 
   .hero {
@@ -192,9 +200,18 @@ nav {
     width: 35% !important;
   }
 
+  #navbar-button{
+    width: 2em !important;
+    height: 2em !important;
+  }
+
   .navbar-brand img {
     width: 100px !important;
     height: 34px;
+  }
+  .navbar-toggler-icon {
+    width: 2em !important;
+    height: 2em !important;
   }
 
 
