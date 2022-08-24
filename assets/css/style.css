@@ -54,7 +54,7 @@ nav {
 }
 
 /* HP Potrait */
-@media (max-width: 480px) {
+@media (max-width: 600px) {
   #sidebar {
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -188,7 +188,7 @@ nav {
 
 /* Potrait Tablet */
 
-@media only screen and (max-width: 950px) and (min-width: 540px) {
+@media only screen and (max-width: 992px) and (min-width: 600px) {
   #sidebar {
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -228,10 +228,8 @@ nav {
   .hero img {
     width: 100% !important;
   }
-  .hero h1 {
-    text-align: center;
-  }
-
+  
+  .hero h1,
   .hero p,
   .hero button {
     text-align: start;
