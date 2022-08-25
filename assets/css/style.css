@@ -55,6 +55,10 @@ nav {
 
 /* HP Potrait */
 @media (max-width: 600px) {
+  .container-fluid{
+    padding-left:0% !important;
+    padding-right:0% !important ;
+  }
   #sidebar {
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -129,10 +133,16 @@ nav {
     justify-content: center;
     margin: 24px 0px;
   }
+
   #container-testimonial {
-    width: 90%;
+    width: 90% !important;
     align-items: center;
     justify-content: center;
+  }
+
+  #banner{
+    padding-right: 0% !important;
+    padding-left: 0% !important;
   }
   #banner-title {
     text-align: center;
@@ -189,6 +199,10 @@ nav {
 /* Potrait Tablet */
 
 @media only screen and (max-width: 992px) and (min-width: 600px) {
+  .container-fluid{
+    padding-left:0% !important;
+    padding-right:0% !important ;
+  }
   #sidebar {
     flex-direction: column !important;
     align-items: flex-start !important;
@@ -228,7 +242,7 @@ nav {
   .hero img {
     width: 100% !important;
   }
-  
+
   .hero h1,
   .hero p,
   .hero button {
@@ -248,6 +262,14 @@ nav {
   #our-service {
     width: 100% !important;
     padding-right: 10% !important;
+  }
+  #container-testimonial {
+    width: 90% !important;
+    align-items: center;
+    justify-content: center;
+  }
+  .testi-item-width{
+    width: 100% !important;
   }
 
   #whyus-card {
