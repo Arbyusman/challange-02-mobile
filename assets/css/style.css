@@ -229,6 +229,7 @@ nav {
   .navbar-brand img {
     width: 100px !important;
     height: 34px;
+    margin-left: 6% !important;
   }
   .navbar-toggler-icon {
     width: 2em !important;
